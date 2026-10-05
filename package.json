@@ -1,0 +1,17 @@
+{
+  "name": "demo-web-shop-playwright",
+  "version": "1.0.0",
+  "description": "Complete Playwright JavaScript automation framework for Tricentis Demo Web Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://demowebshop.tricentis.com/"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
